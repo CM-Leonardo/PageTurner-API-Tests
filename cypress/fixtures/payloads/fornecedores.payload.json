@@ -1,0 +1,13 @@
+{
+    "ESTADO_ORIGINAL": {
+        "companyName": "Editora",
+        "tradeName": "(PATH Test)",
+        "uf": "SP"
+    },
+    
+    "PAYLOAD_EDICACAO": {
+        "companyName": "Editora/Editado",
+        "tradeName": "(PATH Test/Editado)",
+        "uf": "SC"
+    }
+}
