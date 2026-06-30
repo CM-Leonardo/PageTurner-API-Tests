@@ -1,9 +1,7 @@
 import { getEditora, getEditoraIntegration, patchEditora } from "../functions/api/crud_Editoras"
 import { authentication } from "../functions/api/auth"
 import { user, editoras, messages, MESSAGES } from "../functions/utils/envVariaveis"
-import { expectBadRequest, expectForbidden, expectInternalServerError, expectSuccessfullyListEmpyt, expectUnauthorized, resetandoCommit } from "../functions/api/utils"
-
-resetandoCommit()
+import { expectBadRequest, expectForbidden, expectInternalServerError, expectSuccessfullyListEmpyt, expectUnauthorized } from "../functions/api/utils"
 
 describe('CRUD Editoras - API', () => {
     let acessTokenAdm
