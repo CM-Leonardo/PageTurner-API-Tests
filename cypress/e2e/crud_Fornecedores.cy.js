@@ -3,7 +3,7 @@ import { authentication } from "../functions/api/auth"
 import { user, editoras, messages, MESSAGES } from "../functions/utils/envVariaveis"
 import { expectBadRequest, expectForbidden, expectInternalServerError, expectSuccessfullyListEmpyt, expectUnauthorized } from "../functions/api/utils"
 
-const simulandoConflit = false
+const simulandoConflito = false
 
 describe('CRUD Editoras - API', () => {
     let acessTokenAdm
