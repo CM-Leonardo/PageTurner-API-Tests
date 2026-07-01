@@ -44,3 +44,7 @@ export const expectForbidden = (response, errorMessage) => {
     expect(response.body.success).to.eq(false)
     expect(response.body.error).to.eq(errorMessage)
 }
+
+export function testeRemoteBranch() {
+    return console.log("teste Remote Branch")
+}
