@@ -5,6 +5,8 @@ import { expectBadRequest, expectForbidden, expectInternalServerError, expectSuc
 
 testeRemoteBranch()
 
+//executando....
+
 describe('CRUD Editoras - API', () => {
     let acessTokenAdm
     let acessToken
